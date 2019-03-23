@@ -201,6 +201,12 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 1.25rem;
 }
 
+.nav-sticky {
+  position: fixed;
+  top: 1rem;
+  right: 2rem;
+}
+
 .menu--footer {
   background-color: rgba(255, 255, 255, 0);
   margin-bottom: 1.5rem;
