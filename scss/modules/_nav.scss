@@ -5,22 +5,20 @@
   margin-top: 2rem;
   transform: skew(-18deg);
   font-size: 1.125rem;
-  box-shadow: 0 3px 6px 0 rgba(0,0,0,.16);
 
-  &:hover .menu {
-    visibility: visible;
-    opacity: 1;
-  }
+  // &:hover .menu {
+  //   visibility: visible;
+  //   opacity: 1;
+  // }
 }
 
 .menu {
-  // visibility: hidden;
-  // opacity: 0;
   display: flex;
   align-items: center;
   background-color: $color_bg;
   padding: 1rem 2rem;
   transition: .3s linear, opacity .3s linear;
+  box-shadow: 0 3px 6px 0 rgba(0,0,0,.16);
 
   &__item {
     margin-right: .5rem;
@@ -42,16 +40,13 @@
 
 .menu__item, .menu-toggle__icon {
   transform: skew(18deg);
+  font-size: 1.25rem;
 }
 
 .menu-toggle {
   order: 2;
   padding: 1rem 1.3rem;
   background-color: $color_primary;
-
-  &__link {
-    font-size: 1.25rem;
-  }
 }
 
 // Nav js
@@ -61,6 +56,11 @@
   // top: 1rem;
   right: 2rem;
   z-index: 100;
+
+  // .menu {
+  //   visibility: hidden;
+  //   opacity: 0;
+  // }
 }
 
 //-----------------------------------------------------------------------------------------------
