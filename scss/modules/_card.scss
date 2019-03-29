@@ -68,6 +68,7 @@
 .mini-card {
   background-color: $color_highlight;
   display: flex;
+  justify-content: space-between;
   margin-bottom: 1rem;
 
   &__img {
@@ -88,6 +89,7 @@
     font-weight: 400;
     color: rgba($white, .7);
     padding: 0.625rem 1rem;
+    align-self: center;
   }
 
   &__border {
