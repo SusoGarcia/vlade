@@ -204,6 +204,7 @@ h1, h2, h3, h4, h5, h6 {
 .menu--footer {
   background-color: rgba(255, 255, 255, 0);
   margin-bottom: 1.5rem;
+  box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
 }
 
 .menu__item--footer {
