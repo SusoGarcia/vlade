@@ -19,7 +19,7 @@
   box-shadow: $box-shadow;
   display: flex;
   flex-flow: column;
-  justify-content: end;
+  justify-content: flex-end;
 
   &__title {
     font-size: 1.5rem;
