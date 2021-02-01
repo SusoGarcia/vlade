@@ -1,2 +1,2 @@
 # Vlade
-This is a single page made for learning purposes, you can access to it in (http://susogarp.me/vlade/)
+This is a single page made for learning purposes, you can access to it in (http://susogarp.com/vlade/)
